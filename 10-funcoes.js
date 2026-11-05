@@ -66,3 +66,18 @@ multiplicar(2, 5);
 
 const resultado = multiplicar(3, 5);
 console.log(resultado);
+
+// Conhecendo funções anônimas
+const saudacao = function () {
+    console.log("Olá Jotape! Bom dia ☀️")
+}
+
+// Ativando função anônima
+// Utilizamos o nome da variável para referenciar a função e ativá-la
+saudacao()
+
+// Conhecendo as Arrow Functions (Função da seta)
+
+const banana = ()=> {
+    console.log("Amo comer banana!");
+}
